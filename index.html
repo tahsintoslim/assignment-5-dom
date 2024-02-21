@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+    <link  href="/index.css/index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet"     type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+        
+</head>
+<body>
+ <header >
+    <nav id="home-screen" class="flex justify-between m-10 box-border h-20 w-10/12 p-4 border-1">
+        <div class="flex ">
+            <h class=" font-extrabold text-2xl	">bus-Ticket</h>
+        </div>
+        <div class="inline-flex justify-between scroll-m-0 w-96 p-4 ">
+            <ul class="flex justify-between gap-8">
+                <li> <a href="">home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Destination</a></li>
+                <li><a href="">Search</a></li>
+            </ul>
+        </div>
+        <div class="head-3">
+            <button type="button" class=" gap-6 focus:outline-none text-white bg-green-500 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"><i class='bx bx-bus' ></i> bus</button>
+        </div>
+
+    </nav>
+    <!-- home-->
+    
+ </header>
+ <!-- home-->
+ <main>
+    <section id="home-screen" class=" w-10/13 h-full m-10  bg-no-repeat border-2 "
+        style="background-image: url('images/banner.png');">
+        <div class="mx-56 my-20 justify-center align-middle mt-36 box-border h-72 w-6/12 p-4 ">
+            <div>
+                <h1 class=" font-mono text-center text-3xl">Pabna-to-Dhaka Travel with Pabna-Express Paribahan</h1>
+                <p class=" font-mono text-center">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+            </div>
+            <button onclick="BuyTickets()" class="btn ml-48 bg-green-500 btn-xs sm:btn-sm md:btn-md lg:btn-lg">Buy Tickets</button>
+        </div>
+        <div class=" flex m-10 justify-between box-border h-48 w-10/12 p-4 ">
+            <div class="flex gap-6 w-56 h-36  bg-slate-100 drop-shadow-2xl rounded-lg text-sm ">
+                <div><img class=" m-7 h-12 w-14"  src="images/people.png"></div>
+                <div class="block">
+                    <h4 class="font-bold text-2xl">500K+</h4>
+                    <p>Registered users</p>
+                </div>
+            </div>
+            <div class="flex gap-6 w-56 h-36  bg-slate-100 drop-shadow-2xl rounded-lg text-sm ">
+                <div><img class=" m-7 h-12 w-14"  src="images/ticket-cupon.png"></div>
+                <div class="block">
+                    <h4 class="font-bold text-2xl">1.7 lacks</h4>
+                    <p>Tickets sold</p>
+                </div>
+            </div>
+            <div class="flex gap-6 w-56 h-36  bg-slate-100  drop-shadow-2xl  rounded-lg text-sm ">
+                <div><img class=" m-7 h-12 w-14"  src="images/stoppage.png"></div>
+                <div class="block">
+                    <h4 class="font-bold text-2xl">80K+</h4>
+                    <p>Rental partners</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+   
+     <section id="play-copun" class="   ">
+        <div class="w-10/13 h-full m-10">
+            <h1 class=" m-16 text-center font-bold text-4xl">Best offers for you</h1>
+            
+            <div class=" flex  ">
+
+               
+                <div class="flex m-10 bg-yellow-400  gap-12 w-5/12 h-60 rounded-2xl border-4 ">
+                    
+                    <div>
+                        <h3 class=" m-8 font-bold text-2xl">
+                            15% OFF
+                        </h3>
+                        <h4 class="font-bold m-8">on your next purchase</h4>
+                        <p class="m-8">use by January 2024</p>
+    
+                    </div>
+                    <div class=" -mt-4">
+                        <div class=" divide-dashed grid-flow-row bottom-5 -top-20 space-y-44 gap-40 justify-center   h-64 w-14 ">
+                            <div class="-top-4 rounded-full h-10 w-10  bg-yellow-50"></div>
+        
+                            <div class="bottom-0 justify-self-end rounded-full h-10 w-10  bg-yellow-50"></div>
+                        </div>
+                    </div>
+                    
+    
+                    <div>
+                        <h4 class="font-bold m-8 ">NEW15</h4>
+                        <p class="m-8">Coupon Code</p>
+                        
+                    </div>
+    
+                </div>
+                <div class="flex m-10 bg-pink-400  gap-12 w-5/12 h-60 rounded-2xl border-4 ">
+                    <div>
+                        <h3 class=" m-8 font-bold text-2xl">
+                            20% OFF
+                        </h3>
+                        <h4 class="font-bold m-8">on your next purchase</h4>
+                        <p class="m-8">use by January 2024</p>
+    
+                    </div>
+                    <div class=" -mt-3">
+                        <div class="grid-flow-row space-y-44  justify-between h-64 w-14  ">
+                            <div class="top-0 rounded-full h-10 w-10 bg-yellow-50"></div>
+        
+                            <div class="bottom-0 justify-self-end rounded-full h-10 w-10 bg-yellow-50"></div>
+                        </div>
+                    </div>
+                    
+    
+                    <div>
+                        <h4 class="font-bold m-8 ">Couple 20</h4>
+                        <p class="m-8">Coupon Code</p>
+                        
+                    </div>
+    
+                </div>
+            </div>
+
+        </div>
+    </section>
+  
+    <!--ticket-->
+    <section  id="play-ground" class=" hidden  ">
+        <div class=" text-center font-extrabold">
+            <h1 class="text-4xl">
+                C-line Paribahan
+            </h1>
+            <h3>Yes, you can run unit tests and view the results directly within the app.<br>The integrated testing features allow for a streamlined .</h3>
+            
+        </div>
+        <div class="flex justify-between w-11/13 mt-14 h-96 ml-10 bg-w-100 rounded-2xl ">
+
+            <div class="  bg-white rounded-2xl  w-10/12">
+                <div class="flex gap-20 ml-10 mt-10 bg-white  w-11/13 h-36 rounded-2xl  ">
+              
+                    <div class="flex ml-10 gap-10 w-96 h-24 rounded-2xl  bg-yellow-200">
+                        <div >
+                            <div class="ml-2 mt-2"> <img src="images/bus-logo.png"></div> 
+                        </div>
+    
+                        <div>
+                            <h1 class="font-bold text-3xl">C-line Paribahan</h1>
+                        <p> Coach-019-WEB ! No-AC_Business</p>
+                        </div>
+                        
+                    </div>
+                    <div>
+                        <button id="BuyTickets" class="btn ml-48 bg-gray-200 btn-xs sm:btn-sm md:btn-md lg:btn-lg">40 seat left</button> 
+                    </div>
+    
+                </div>
+                <div class="flex ml-10 justify-between w-11/13 h-10 rounded-2xl ">
+                    <h3 class="mt-1 m-8 font-bold text-2xl">
+                        Route
+                    </h3>
+                    <h4 class=" mt-1 font-bold m-8">Dhaka - Sylhet</h4>
+                   
+    
+                </div>
+                <div class="flex ml-10 justify-between w-11/13 h-14 rounded-2xl ">
+                    <h1 class=" ml-1 font-bold">Departure Time</h1>
+                    <h3 class=" ml-1 font-bold">
+                        9:00 PM
+                    </h3>
+                   
+                </div>
+                <div class="flex ml-10 justify-between w-11/13 h-20 rounded-2xl ">
+                    <div class="w-48 h-12 bg-slate-200 items-center rounded-2xl border-4">
+                        <h4>Boarding Point-Laxmipur</h4>
+                    
+                    </div>
+                    <div class="w-48 h-12 rounded-2xl  items-center bg-slate-200 border-4">
+                        <h4>Dropping Point-Bogura</h4>
+                    </div>
+                    <div class="w-48 h-12 ml-4 bg-slate-200 items-center rounded-2xl border-4">
+                        <h4>Est. Time-11 Hour</h4>
+    
+                    </div>
+                </div>
+                
+                
+
+
+            </div>
+            <div class=" mt-32 ml-5 mr-20  w-44 h-32 rounded-2xl">
+                <img class=" ml-9" src="images/fare.png">
+                <h4 class="font-bold ml-8 ">550 Taka</h4>
+                <p class="ml-8">Per Seat</p>
+            </div>
+        </div>
+    </section>
+     <section >
+        <div class=" flex ml-10  w-10/12 h-min rounded-2xl border-1">
+            <div class=" flex-col ml-3  w-96 h-auto rounded-2xl border-1">
+                <div class=" justify-start  w-36 h-9">
+                    <h4>Select Your Seat</h4> 
+                </div>
+                <div class="flex  justify-between">
+                    <div class=" flex border-4 w-32 h-10">
+                        <img src="images/seat-gray.png"
+                        <h4>Available</h4>
+                    </div>
+                    <div class=" flex border-4 w-32 h-10">
+                        <img src="images/seat-green-filled.png"
+                        <H4>Selected</H4></div>
+                    </div>
+                    <div class="flex">
+                        <div>
+                            <div class=" flex-col  grid-flow-col">
+                                <div class="flex justify-center   my-5 w-full">
+                                    <kbd class="kbd w-12 mt-10">A</kbd>
+                                  </div> 
+                                  <div class="flex justify-center  my-5 w-full">
+                                    <kbd class="kbd w-12">B</kbd>
+                                  </div> 
+                                  <div class="flex justify-center my-5 w-full">
+                                    <kbd class="kbd w-12">D</kbd>
+                                  </div>
+                                  <div class="flex justify-center gap-3 my-5 w-full">
+                                    <kbd class="kbd w-12">E</kbd>
+                                  </div> 
+                                  <div class="flex justify-center gap-3 my-5 w-full">
+                                    <kbd class="kbd w-12">F</kbd>
+                                  </div>
+                                  <div class="flex justify-center gap-3 my-5 w-full">
+                                    <kbd class="kbd w-12">G</kbd>
+                                  </div> 
+                                  <div class="flex justify-center gap-3 my-5 w-full">
+                                    <kbd class="kbd w-12">H</kbd>
+                                  </div>
+                                  <div class="flex justify-center gap-3 my-5 w-full">
+                                    <kbd class="kbd w-12">I</kbd>
+                                  
+                                  </div> 
+                                  <div class="flex justify-center gap-3 my-5 w-full">
+                                    <kbd class="kbd w-12">J</kbd>
+                                    
+                                  </div>
+                            </div>
+    
+    
+    
+                        </div>
+                        <div class="border-1 w-52 h-auto rounded-2xl">
+                            <div>
+                                <div class=" flex-col  grid-flow-col">
+                                    <div class="flex justify-center gap-5 my-5 w-full">
+                                        <kbd class="kbd w-16 mt-10">A1</kbd>
+                                        <kbd class="kbd w-16 mt-10">A2</kbd>
+                                        
+                                      </div> 
+                                      <div class="flex justify-center gap-5 my-5 w-full">
+                                        <kbd class="kbd w-16">A1</kbd>
+                                        <kbd class="kbd w-16">B2</kbd>
+                                        
+                                      </div> 
+                                      <div class="flex justify-center gap-5 my-5 w-full">
+                                        <kbd class="kbd w-16">D1</kbd>
+                                        <kbd class="kbd w-16">D2</kbd>
+                                        
+                                      </div>
+                                      <div class="flex justify-center gap-5 my-5 w-full">
+                                        <kbd class="kbd w-16">E1</kbd>
+                                        <kbd class="kbd w-16">E2</kbd>
+                                        
+                                      </div> 
+                                      <div class="flex justify-center gap-5 my-5 w-full">
+                                        <kbd class="kbd w-16">F1</kbd>
+                                        <kbd class="kbd w-16">F2</kbd>
+                                        
+                                      </div>
+                                      <div class="flex justify-center gap-5 my-5 w-full">
+                                        <kbd class="kbd w-16">G1</kbd>
+                                        <kbd class="kbd w-16">G2</kbd>
+                                        
+                                      </div> 
+                                      <div class="flex justify-center gap-5 my-5 w-full">
+                                        <kbd class="kbd w-16">H1</kbd>
+                                        <kbd class="kbd w-16">H2</kbd>
+                                        
+                                      </div>
+                                      <div class="flex justify-center gap-5 my-5 w-full">
+                                        <kbd class="kbd w-16">I1</kbd>
+                                        <kbd class="kbd w-16">I2</kbd>
+                                        
+                                      </div> 
+                                      <div class="flex justify-center gap-5 my-5 w-full">
+                                        <kbd class="kbd w-16">J1</kbd>
+                                        <kbd class="kbd w-16">J2</kbd>
+                                        
+                                      </div>
+                                </div>
+    
+    
+    
+                            </div>
+                            
+    
+                        </div>
+                        <div class=" border-1 w-52 h-auto  rounded-2xl">
+                            <div class="">
+                                <div class=" ml-28  mt-5 justify-center rounded-full  border-4 w-7 h-7">
+            
+                                    <i class='bx bx-doughnut-chart'></i>
+                                </div>
+                                <div class=" flex-col  grid-flow-col">
+                                    <div class="flex  mt-2 justify-center gap-5 my-5 w-full">
+                                        <kbd class="kbd w-16">A3</kbd>
+                                        <kbd class="kbd w-16">A4</kbd>
+                                        
+                                      </div> 
+                                      <div class="flex justify-center gap-5 my-5 w-full">
+                                        <kbd class="kbd w-16">B3</kbd>
+                                        <kbd class="kbd w-16">B4</kbd>
+                                        
+                                      </div> 
+                                      <div class="flex justify-center gap-5 my-5 w-full">
+                                        <kbd class="kbd w-16">D3</kbd>
+                                        <kbd class="kbd w-16">D4</kbd>
+                                        
+                                      </div>
+                                      <div class="flex justify-center gap-5 my-5 w-full">
+                                        <kbd class="kbd w-16">E3</kbd>
+                                        <kbd class="kbd w-16">E4</kbd>
+                                        
+                                      </div> 
+                                      <div class="flex justify-center gap-5 my-5 w-full">
+                                        <kbd class="kbd w-16">F3</kbd>
+                                        <kbd class="kbd w-16">F4</kbd>
+                                        
+                                      </div>
+                                      <div class="flex justify-center gap-5 my-5w-full">
+                                        <kbd class="kbd w-16">G3</kbd>
+                                        <kbd class="kbd w-16">G4</kbd>
+                                        
+                                      </div> 
+                                      <div class="flex justify-center gap-5 my-5 w-full">
+                                        <kbd class="kbd w-16">H3</kbd>
+                                        <kbd class="kbd w-16">H4</kbd>
+                                        
+                                      </div>
+                                      <div class="flex justify-center gap-5 my-5 w-full">
+                                        <kbd class="kbd w-16">I3</kbd>
+                                        <kbd class="kbd w-16">I4</kbd>
+                                        
+                                      </div> 
+                                      <div class="flex justify-center gap-5 my-5 w-full">
+                                        <kbd class="kbd w-16">J3</kbd>
+                                        <kbd class="kbd w-16">J4</kbd>
+                                        
+                                      </div>
+                                </div>
+    
+    
+    
+                            </div>
+        
+                        </div>
+                    </div>
+
+                
+                    
+                </div>
+                <div class=" ml-10 border-1 w-max h-auto  rounded-2xl">
+                    <div class="  ml-10 border-1 w-max h-auto rounded-2xl">
+                        <div class="artboard artboard-horizontal phone-2">
+                            <div class=" m-10 flex border-1 justify-between w-5/6">
+                                <div>
+                                    <h4>Seat</h4>
+                                </div>
+                                <div>
+                                    Class
+                                </div>
+                                <div>
+                                    Price
+                                </div>
+                            </div>
+                            <div class=" m-10 flex border-1 justify-between w-5/6"">
+                                <div>
+                                    <h4>C2</h4>
+                                </div>
+                                <div>
+                                    Economoy
+                                </div>
+                                <div>
+                                    550
+                                </div>
+                            </div>
+                            <div class=" m-10 flex border-1 justify-between w-5/6"">
+                                <div>
+                                    <h4>C2</h4>
+                                </div>
+                                <div>
+                                    Economoy
+                                </div>
+                                <div>
+                                    550
+                                </div>
+                            </div>
+                            <div class=" ml-10 mt-4 flex border-1 justify-between w-5/6"">
+                                <div>
+                                    <h4>Total Price</h4>
+                                </div>
+                                
+                                <div>
+                                    BDT 1100
+                                </div>
+                                
+                            </div>
+                            <div class=" ml-10 mt-4 flex border-1 justify-between w-5/6">
+                                <input type="file" class=" ml-20 file-input file-input-bordered file-input-sm w-full max-w-xs" />
+                            </div>
+                            
+                            <div class=" ml-10 mt-4 flex border-1 justify-center items-center w-5/6"">
+                                <div>
+                                    <h4>Total Price</h4>
+                                </div>
+                                
+                                <div>
+                                    BDT 1100
+                                </div>
+                            </div>
+    
+    
+                        </div>
+    
+                    </div>
+                    <div>
+                        <div>
+                            <h3 class=" font-bold text-2xl m-8">
+                                Passenger Name*
+                            </h3>
+                            <label class=" m-8 input input-bordered flex items-center gap-2">
+                                Name
+                                <input type="text" class="grow" placeholder="Tahsin" />
+                              </label>
+                              <h3 class=" font-bold text-2xl m-8">Phone Number*</h3>
+                              <label class=" m-8 input input-bordered flex items-center gap-2">
+                                phone 
+                                <input type="number" class="grow" placeholder="0123456" />
+                              </label>
+                              <h3 class=" font-bold text-2xl m-8"> Email Id </h3>
+                              <label class=" m-8 input input-bordered flex items-center gap-2">
+                                Email
+                                <input type="text" class="grow" placeholder="Tahsin@gmail.com" />
+                              </label>
+                              <button class=" ml-24 btn w-96 bg-lime-600">Next</button>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+                
+                
+
+            </div>
+            <h1>
+                Tahsin
+            </h1>
+        </div>
+    </section>
+ </main>
+ <footer class="footer p-10 bg-neutral text-neutral-content">
+    <div class="flex flex-col w-full">
+        <div class=" flex  justify-between gap-72">
+            <aside>
+                <div class="grid grid-cols-1 gap-4">
+                    <h4 class="font-extrabold text-4xl">bus-E-Ticket</h4>
+                    <h4>
+                        bus-E-Ticket is a digital platform to make your daily commuting better.
+                    </h4>
+                  </div>
+            </aside> 
+            <nav>
+              <h6 class="footer-title">Download our app</h6> 
+              <div class="grid grid-flow-col gap-4">
+                 
+                <div class=" flex border-2 w-72 h-20 bg-black rounded-2xl ">
+                    <img src="images/playstore.png">
+                    <div>
+                        <h4>GET IT ON</h4>
+                        <h3 class="font-serif text-2xl">GOOGLE PLAY</h3>
+        
+                    </div>
+                </div>
+              </div>
+        
+            </nav>
+        </div>
+        <div class="divider "></div>
+        <div class="flex w-10/12 h-20 card  rounded-box justify-betweenr">
+            <div><h3>@all rights reserved, bus-E-Ticketservices limited.2024</h3></div>
+            <div class=" flex  justify-between m-10 border-dashed ">
+            <div><h3>Terms & condition</h3></div>
+            <div><h3>Return & refund policy</h3></div>
+            <div><h3>Privacy policy</h3></div>
+           </div>
+        </div>
+    </div>
+  </footer>
+
+  <script src="scripts/index.js"></script>
+  <script src="scripts/utility.js"></script>
+</body>
+</html>
